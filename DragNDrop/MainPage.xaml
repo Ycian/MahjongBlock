@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local1="clr-namespace:DragNDrop"
+             x:Class="DragNDrop.HomePage">
+	<ContentPage.Content>
+        <StackLayout Padding="0,30,0,0" BackgroundColor="FloralWhite">
+            <Label Text="Muzzle" HorizontalOptions="Center" TextColor="CornflowerBlue" FontFamily="@font/sourcesanspro_regular" FontSize="50"/>
+            <Image Source="cover.jpg" />
+            <Label HeightRequest="70"/>
+            <Button x:Name="startGame" Text="Start"      WidthRequest="250" FontSize="28" HorizontalOptions="Center" BorderWidth="1" CornerRadius="5" Clicked ="startClick"/>
+            <Button x:Name="topScores" Text="Top Scores" WidthRequest="250" FontSize="28" HorizontalOptions="Center" BorderWidth="1" CornerRadius="5" />
+            <Button x:Name="rules"     Text="Rules"      WidthRequest="250" FontSize="28" HorizontalOptions="Center" BorderWidth="1" CornerRadius="5" />
+            <Button x:Name="credits"   Text="Credits"    WidthRequest="250" FontSize="28" HorizontalOptions="Center" BorderWidth="1" CornerRadius="5" />
+            
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

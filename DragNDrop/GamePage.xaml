@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local1="clr-namespace:DragNDrop"
+             x:Class="DragNDrop.GamePage">
+	<ContentPage.Content>
+        <StackLayout BackgroundColor="FloralWhite">
+            <Label x:Name="buzzle" Text="Buzzle" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Label x:Name="score" Text="Current score: 0" HorizontalOptions="Center"/>
+            <Label x:Name="temp2" Text=" " />
+    
+            <Grid x:Name="grid" BackgroundColor="CadetBlue" Margin="5" ColumnSpacing="3" RowSpacing="3" >
+              <Grid.RowDefinitions>
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+                <RowDefinition Height="42" />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+                <ColumnDefinition Width="42" />
+              </Grid.ColumnDefinitions>
+                <Image x:Name="b00" Source="" Grid.Row="0" Grid.Column="0" BackgroundColor="LightYellow" />
+                <Image x:Name="b01" Source="" Grid.Row="0" Grid.Column="1" BackgroundColor="LightYellow" />
+                <Image x:Name="b02" Source="" Grid.Row="0" Grid.Column="2" BackgroundColor="LightYellow" />
+                <Image x:Name="b03" Source="" Grid.Row="0" Grid.Column="3" BackgroundColor="Bisque" />
+                <Image x:Name="b04" Source="" Grid.Row="0" Grid.Column="4" BackgroundColor="Bisque" />
+                <Image x:Name="b05" Source="" Grid.Row="0" Grid.Column="5" BackgroundColor="Bisque" />
+                <Image x:Name="b06" Source="" Grid.Row="0" Grid.Column="6" BackgroundColor="LightYellow" />
+                <Image x:Name="b07" Source="" Grid.Row="0" Grid.Column="7" BackgroundColor="LightYellow" />
+                <Image x:Name="b08" Source="" Grid.Row="0" Grid.Column="8" BackgroundColor="LightYellow" />
+                <Image x:Name="b10" Source="" Grid.Row="1" Grid.Column="0" BackgroundColor="LightYellow" />
+                <Image x:Name="b11" Source="" Grid.Row="1" Grid.Column="1" BackgroundColor="LightYellow" />
+                <Image x:Name="b12" Source="" Grid.Row="1" Grid.Column="2" BackgroundColor="LightYellow" />
+                <Image x:Name="b13" Source="" Grid.Row="1" Grid.Column="3" BackgroundColor="Bisque" />
+                <Image x:Name="b14" Source="" Grid.Row="1" Grid.Column="4" BackgroundColor="Bisque" />
+                <Image x:Name="b15" Source="" Grid.Row="1" Grid.Column="5" BackgroundColor="Bisque" />
+                <Image x:Name="b16" Source="" Grid.Row="1" Grid.Column="6" BackgroundColor="LightYellow" />
+                <Image x:Name="b17" Source="" Grid.Row="1" Grid.Column="7" BackgroundColor="LightYellow" />
+                <Image x:Name="b18" Source="" Grid.Row="1" Grid.Column="8" BackgroundColor="LightYellow" />
+                <Image x:Name="b20" Source="" Grid.Row="2" Grid.Column="0" BackgroundColor="LightYellow" />
+                <Image x:Name="b21" Source="" Grid.Row="2" Grid.Column="1" BackgroundColor="LightYellow" />
+                <Image x:Name="b22" Source="" Grid.Row="2" Grid.Column="2" BackgroundColor="LightYellow" />
+                <Image x:Name="b23" Source="" Grid.Row="2" Grid.Column="3" BackgroundColor="Bisque" />
+                <Image x:Name="b24" Source="" Grid.Row="2" Grid.Column="4" BackgroundColor="Bisque" />
+                <Image x:Name="b25" Source="" Grid.Row="2" Grid.Column="5" BackgroundColor="Bisque" />
+                <Image x:Name="b26" Source="" Grid.Row="2" Grid.Column="6" BackgroundColor="LightYellow" />
+                <Image x:Name="b27" Source="" Grid.Row="2" Grid.Column="7" BackgroundColor="LightYellow" />
+                <Image x:Name="b28" Source="" Grid.Row="2" Grid.Column="8" BackgroundColor="LightYellow" />
+                <Image x:Name="b30" Source="" Grid.Row="3" Grid.Column="0" BackgroundColor="Bisque" />
+                <Image x:Name="b31" Source="" Grid.Row="3" Grid.Column="1" BackgroundColor="Bisque" />
+                <Image x:Name="b32" Source="" Grid.Row="3" Grid.Column="2" BackgroundColor="Bisque" />
+                <Image x:Name="b33" Source="" Grid.Row="3" Grid.Column="3" BackgroundColor="LightYellow" />
+                <Image x:Name="b34" Source="" Grid.Row="3" Grid.Column="4" BackgroundColor="LightYellow" />
+                <Image x:Name="b35" Source="" Grid.Row="3" Grid.Column="5" BackgroundColor="LightYellow" />
+                <Image x:Name="b36" Source="" Grid.Row="3" Grid.Column="6" BackgroundColor="Bisque" />
+                <Image x:Name="b37" Source="" Grid.Row="3" Grid.Column="7" BackgroundColor="Bisque" />
+                <Image x:Name="b38" Source="" Grid.Row="3" Grid.Column="8" BackgroundColor="Bisque" />
+                <Image x:Name="b40" Source="" Grid.Row="4" Grid.Column="0" BackgroundColor="Bisque" />
+                <Image x:Name="b41" Source="" Grid.Row="4" Grid.Column="1" BackgroundColor="Bisque" />
+                <Image x:Name="b42" Source="" Grid.Row="4" Grid.Column="2" BackgroundColor="Bisque" />
+                <Image x:Name="b43" Source="" Grid.Row="4" Grid.Column="3" BackgroundColor="LightYellow" />
+                <Image x:Name="b44" Source="" Grid.Row="4" Grid.Column="4" BackgroundColor="LightYellow" />
+                <Image x:Name="b45" Source="" Grid.Row="4" Grid.Column="5" BackgroundColor="LightYellow" />
+                <Image x:Name="b46" Source="" Grid.Row="4" Grid.Column="6" BackgroundColor="Bisque" />
+                <Image x:Name="b47" Source="" Grid.Row="4" Grid.Column="7" BackgroundColor="Bisque" />
+                <Image x:Name="b48" Source="" Grid.Row="4" Grid.Column="8" BackgroundColor="Bisque" />
+                <Image x:Name="b50" Source="" Grid.Row="5" Grid.Column="0" BackgroundColor="Bisque" />
+                <Image x:Name="b51" Source="" Grid.Row="5" Grid.Column="1" BackgroundColor="Bisque" />
+                <Image x:Name="b52" Source="" Grid.Row="5" Grid.Column="2" BackgroundColor="Bisque" />
+                <Image x:Name="b53" Source="" Grid.Row="5" Grid.Column="3" BackgroundColor="LightYellow" />
+                <Image x:Name="b54" Source="" Grid.Row="5" Grid.Column="4" BackgroundColor="LightYellow" />
+                <Image x:Name="b55" Source="" Grid.Row="5" Grid.Column="5" BackgroundColor="LightYellow" />
+                <Image x:Name="b56" Source="" Grid.Row="5" Grid.Column="6" BackgroundColor="Bisque" />
+                <Image x:Name="b57" Source="" Grid.Row="5" Grid.Column="7" BackgroundColor="Bisque" />
+                <Image x:Name="b58" Source="" Grid.Row="5" Grid.Column="8" BackgroundColor="Bisque" />
+                <Image x:Name="b60" Source="" Grid.Row="6" Grid.Column="0" BackgroundColor="LightYellow" />
+                <Image x:Name="b61" Source="" Grid.Row="6" Grid.Column="1" BackgroundColor="LightYellow" />
+                <Image x:Name="b62" Source="" Grid.Row="6" Grid.Column="2" BackgroundColor="LightYellow" />
+                <Image x:Name="b63" Source="" Grid.Row="6" Grid.Column="3" BackgroundColor="Bisque" />
+                <Image x:Name="b64" Source="" Grid.Row="6" Grid.Column="4" BackgroundColor="Bisque" />
+                <Image x:Name="b65" Source="" Grid.Row="6" Grid.Column="5" BackgroundColor="Bisque" />
+                <Image x:Name="b66" Source="" Grid.Row="6" Grid.Column="6" BackgroundColor="LightYellow" />
+                <Image x:Name="b67" Source="" Grid.Row="6" Grid.Column="7" BackgroundColor="LightYellow" />
+                <Image x:Name="b68" Source="" Grid.Row="6" Grid.Column="8" BackgroundColor="LightYellow" />
+                <Image x:Name="b70" Source="" Grid.Row="7" Grid.Column="0" BackgroundColor="LightYellow" />
+                <Image x:Name="b71" Source="" Grid.Row="7" Grid.Column="1" BackgroundColor="LightYellow" />
+                <Image x:Name="b72" Source="" Grid.Row="7" Grid.Column="2" BackgroundColor="LightYellow" />
+                <Image x:Name="b73" Source="" Grid.Row="7" Grid.Column="3" BackgroundColor="Bisque" />
+                <Image x:Name="b74" Source="" Grid.Row="7" Grid.Column="4" BackgroundColor="Bisque" />
+                <Image x:Name="b75" Source="" Grid.Row="7" Grid.Column="5" BackgroundColor="Bisque" />
+                <Image x:Name="b76" Source="" Grid.Row="7" Grid.Column="6" BackgroundColor="LightYellow" />
+                <Image x:Name="b77" Source="" Grid.Row="7" Grid.Column="7" BackgroundColor="LightYellow" />
+                <Image x:Name="b78" Source="" Grid.Row="7" Grid.Column="8" BackgroundColor="LightYellow" />
+                <Image x:Name="b80" Source="" Grid.Row="8" Grid.Column="0" BackgroundColor="LightYellow" />
+                <Image x:Name="b81" Source="" Grid.Row="8" Grid.Column="1" BackgroundColor="LightYellow" />
+                <Image x:Name="b82" Source="" Grid.Row="8" Grid.Column="2" BackgroundColor="LightYellow" />
+                <Image x:Name="b83" Source="" Grid.Row="8" Grid.Column="3" BackgroundColor="Bisque" />
+                <Image x:Name="b84" Source="" Grid.Row="8" Grid.Column="4" BackgroundColor="Bisque" />
+                <Image x:Name="b85" Source="" Grid.Row="8" Grid.Column="5" BackgroundColor="Bisque" />
+                <Image x:Name="b86" Source="" Grid.Row="8" Grid.Column="6" BackgroundColor="LightYellow" />
+                <Image x:Name="b87" Source="" Grid.Row="8" Grid.Column="7" BackgroundColor="LightYellow" />
+                <Image x:Name="b88" Source="" Grid.Row="8" Grid.Column="8" BackgroundColor="LightYellow" />
+            </Grid>
+                <!--col = (10.0 + label1.TranslationX - botLeftX) / boxSize - 0.5;
+                    row  = (10.0 + label1.TranslationY - botLeftY) / boxSize + 8.5;-->
+			    <local1:PanContainer x:Name="container" HeightRequest="200" WidthRequest="200">
+                    <Image x:Name="mahjong" Source="mahjong/dot1"  WidthRequest="42" HeightRequest="42" VerticalOptions="Center" HorizontalOptions="Center" />
+			    </local1:PanContainer>
+            <Button x:Name="put" Text="Put it here" BorderWidth="2" CornerRadius="5" TextColor="Black" WidthRequest="150" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+            <Button Text="Clear" Clicked="clear_clicked"/>
+
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
